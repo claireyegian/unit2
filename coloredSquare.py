@@ -24,4 +24,20 @@ if num == 2:
     Sprite(rectangle)
     myApp = App()
     myApp.run()
+if num == 3:
+    lightcoral = Color(0xf08080,1)
+    line = LineStyle(3,lightcoral)
+    rectangle = RectangleAsset(100,100,line,lightcoral)
+    
+    Sprite(rectangle)
+    myApp = App()
+    myApp.run()
+if num == 4:
+    cornflowerblue = Color(0x6495ed,1)
+    line = LineStyle(3,cornflowerblue)
+    rectangle = RectangleAsset(100,100,line,cornflowerblue)
+    
+    Sprite(rectangle)
+    myApp = App()
+    myApp.run()
     

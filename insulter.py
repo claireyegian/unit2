@@ -5,7 +5,7 @@
 from random import randint
 
 name = input('Enter your name: ')
-number = randint(1,6)
+number = randint(1,5)
 if number==1:
     print('I would unplug your life support to charge my phone')
 elif number==2:
@@ -16,5 +16,3 @@ elif number==4:
     print('You look like something I would draw with my left hand')
 elif number==5:
     print('If I had to bench anyone in the game of life, it would be you')
-elif number==6:
-    print('

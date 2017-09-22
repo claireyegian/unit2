@@ -18,5 +18,5 @@ door = RectangleAsset(65,100,Outline,darkGrey)
 
 Sprite(greyRectangle,(300,200))
 Sprite(greyTriangle)
-Sprite(door,(450,300))
+Sprite(door,(475,300))
 App().run()

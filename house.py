@@ -11,6 +11,8 @@ black = Color(0x000000,1)
 blackOutline = LineStyle(0,black)
 
 greyRectangle = RectangleAsset(400,200,blackOutline,grey)
+greyTriangle = PolygonAsset([(300,200),(700,200),(500,100)],blackOutline,grey)
 
 Sprite(greyRectangle,(300,200))
+Sprite(greyTriangle)
 App().run()

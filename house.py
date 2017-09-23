@@ -16,10 +16,12 @@ greyRectangle = RectangleAsset(400,200,blackOutline,grey)
 greyTriangle = PolygonAsset([(300,200),(700,200),(500,100)],blackOutline,grey)
 door = RectangleAsset(65,100,blackOutline,darkGrey)
 window = RectangleAsset(60,60,blackOutline,blue)
+line1 = LineAsset(0,60,Outline)
 
 Sprite(greyRectangle,(300,200))
 Sprite(greyTriangle)
 Sprite(door,(460,300))
 Sprite(window,(350,250))
-Sprite(window,(560,250))
+Sprite(window,(575,250))
+Sprite(
 App().run()

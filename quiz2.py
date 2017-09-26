@@ -8,16 +8,16 @@ num2 = float(input('Enter another number: '))
 if num1==num2:
     print('Your numbers are equal')
 elif num1>num2:
-    print(num1, 'is greater than', num2)
+    print('The first number is bigger')
 else:
-    print(num2, 'is greater than', num1)
+    print('The second number is bigger')
 if num1%3==0:
     if num2%3==0:
         print('Both numbers are divisible by 3')
     else:
-        print(num1, 'is divisible by 3')
+        print('Only the first number is divisible by 3')
 elif num2%3==0:
-    print(num2, 'is divisible by 3')
+    print('Only the second number is divisible by 3')
 else:
     print('Neither is divisible by 3')
 
